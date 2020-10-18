@@ -1,0 +1,9 @@
+{
+  "name": "com.stwunsch.nordvpn_status",
+  "description": "NordVPN Status",
+  "path": "PATH_TO_HOST_APP/app",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://gbbdiiejlnmffeapahhmbbbbnaiamnac/"
+  ]
+}

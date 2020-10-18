@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "NordVPN Status",
+  "description": "This extension shows the status of NordVPN on Linux systems.",
+  "version": "0.0.1",
+
+  "browser_action": {
+   "default_title": "NordVPN Status",
+   "default_icon": "icon-19.png",
+   "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+   "nativeMessaging",
+    "background"
+   ]
+}
